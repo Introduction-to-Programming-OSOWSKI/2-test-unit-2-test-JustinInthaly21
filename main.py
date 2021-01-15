@@ -1,5 +1,5 @@
 def waterState(f):
-    if f < 31:
+    if f < 32:
         return "solid"
     elif 31 < f < 212:
         return "liquid"
@@ -23,8 +23,7 @@ def stopLight(c):
         return "Go"
    
     elif c == "Yellow":
-        return "Slow"
+        return "slow"
     
     else:
         return "stop"
-
