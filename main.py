@@ -1,5 +1,5 @@
 def waterState(f):
-    if f < 32:
+    if f < 31:
         return "solid"
     elif f < 212:
         return "liquid"
