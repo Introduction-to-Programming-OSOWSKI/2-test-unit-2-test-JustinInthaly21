@@ -1,5 +1,5 @@
 def waterState(f):
-    if f < 32:
+    if f < 31:
         return "solid"
     elif 31 < f < 212:
         return "liquid"
@@ -16,7 +16,7 @@ def toGerman(x):
     if x == "yes":
         return "ja"
     else:
-        return "Nein"
+        return "nein"
 
 def stopLight(c):
     if c == "Green":
@@ -26,5 +26,5 @@ def stopLight(c):
         return "Slow"
     
     else:
-        return "Stop"
+        return "stop"
 
